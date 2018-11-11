@@ -12,6 +12,12 @@ C:\Windows\System32\drivers\etc\hosts
 
 설치 후 activate code
 
+
+#### 파이참 자동 줄 맞춤
+
+    컨트롤 + 알트 + i
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTkyOTg0LC05NjE2NDIxMDJdfQ==
+eyJoaXN0b3J5IjpbMTYzMTI5NTczMiwxOTg5OTI5ODQsLTk2MT
+Y0MjEwMl19
 -->
