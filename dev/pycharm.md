@@ -10,7 +10,8 @@ C:\Windows\System32\drivers\etc\hosts
 
 0.0.0.0 account.jetbrains.com
 
+설치 후 activate code
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDc2MDczMiwtOTYxNjQyMTAyXX0=
+eyJoaXN0b3J5IjpbMTk4OTkyOTg0LC05NjE2NDIxMDJdfQ==
 -->
