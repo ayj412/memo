@@ -20,6 +20,13 @@ button에는 hover 속성을 줘서 이쁘게 만드는데 color와 background�
       background: #ffffff;  
     }
 
+#### tip2
+
+https://developers.google.com/fonts/
+
+google api font 를 사용해서 폰트를 이쁘게 변경하자
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTQ0NjkzXX0=
+eyJoaXN0b3J5IjpbLTE1Mjg5MzU0NDYsMTk2MTQ0NjkzXX0=
 -->
