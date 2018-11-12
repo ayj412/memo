@@ -18,7 +18,6 @@ sudo apt-get install python3.6
 
 아래의 명령어를 실행
 sudo update-alternatives –install /usr/bin/python3 python3 /usr/bin/python3.5 1
-1
 
 아래의 명령어도 실행
 
@@ -26,5 +25,5 @@ sudo update-alternatives –install /usr/bin/python3 python3 /usr/bin/python3.6 
 
 마지막 sudo update-alternatives –config python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwODM5NzA5XX0=
+eyJoaXN0b3J5IjpbLTU1NjQ3MzQ1OF19
 -->
