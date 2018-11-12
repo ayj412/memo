@@ -17,13 +17,13 @@ python3 --version으로 확인해봐도 여전히
 sudo apt-get install python3.6
 
 아래의 명령어를 실행
-sudo update-alternatives –install /usr/bin/python3 python3 /usr/bin/python3.5 1
+sudo update-alternatives –-install /usr/bin/python3 python3 /usr/bin/python3.5 1
 
 아래의 명령어도 실행
 
-sudo update-alternatives –install /usr/bin/python3 python3 /usr/bin/python3.6 2
+sudo update-alternatives –-install /usr/bin/python3 python3 /usr/bin/python3.6 2
 
 마지막 sudo update-alternatives –config python3
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NjQ3MzQ1OF19
+eyJoaXN0b3J5IjpbLTE3ODU1MTIyODBdfQ==
 -->
