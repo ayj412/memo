@@ -3,7 +3,18 @@
 프로젝트명은 소문자로 쓰고, 스페이스구분은 -로 
 한다.
 
-ㅇ
+어플리케이션의 경우 특별히 서비스가 없으면 app으로 하자
+
+ex) 쇼핑몰을 django로 만든다고 가정했을 때
+사용자에게 보여줄 쇼핑몰이 필요하고
+
+관리자가 물건 등록할 관리자 페이지가 필요할 때
+
+프로젝트 어플리케이션은 shop
+
+어플리케이션 (사용자) home
+어플리케이션 (관리자) admin
+이런식
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDAyNDE3Nl19
+eyJoaXN0b3J5IjpbMjY0MTUzMzM2XX0=
 -->
