@@ -18,9 +18,11 @@
     	  var lastName = "Johnson";  //  String
     	  var x = {firstName:"John", LastName:"Doe};  //  Object
 
-4. 
+**4. 반복문**
 
-**5. 함수**
+5. 
+
+**6. 함수**
 
     ex) function myFunction() {
     		document.getElementById("demo1").innetHTML = "hello Dolly!";
@@ -30,6 +32,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI2OTI2MjkwLDE4Mzg0MzQwNDcsLTE1OT
-I3OTE2NjgsLTE3Nzk5NzA4NDQsLTkxODk2MjA1NF19
+eyJoaXN0b3J5IjpbMTk3MTc2ODE3MSw1MjY5MjYyOTAsMTgzOD
+QzNDA0NywtMTU5Mjc5MTY2OCwtMTc3OTk3MDg0NCwtOTE4OTYy
+MDU0XX0=
 -->
