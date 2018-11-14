@@ -21,7 +21,9 @@
 **4. 반복문**
 자바스크립트의 for문은 C언어와 유사하다.
 
-text +
+ex) text += cars[0] + "<br>";
+	  text += cars[1] + "<br>";
+	  text += cars[2] + "<br>"
 5. 
 
 **6. 함수**
@@ -34,7 +36,7 @@ text +
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDEzMDg4NCw1MjY5MjYyOTAsMTgzOD
-QzNDA0NywtMTU5Mjc5MTY2OCwtMTc3OTk3MDg0NCwtOTE4OTYy
-MDU0XX0=
+eyJoaXN0b3J5IjpbLTE0NDUyMzUwMjAsNTI2OTI2MjkwLDE4Mz
+g0MzQwNDcsLTE1OTI3OTE2NjgsLTE3Nzk5NzA4NDQsLTkxODk2
+MjA1NF19
 -->
