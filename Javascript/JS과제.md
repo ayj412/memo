@@ -13,10 +13,14 @@ ex) var a, b, c;
 
 3. 
 
+**5. 함수**
+
+ex) function myFunction() {
+			document.getE
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTI3OTE2NjgsLTE3Nzk5NzA4NDQsLT
-kxODk2MjA1NF19
+eyJoaXN0b3J5IjpbMTM2MTAxNTE3NywtMTU5Mjc5MTY2OCwtMT
+c3OTk3MDg0NCwtOTE4OTYyMDU0XX0=
 -->
