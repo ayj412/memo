@@ -14,6 +14,9 @@ ex) var a, b, c;
 **3.  데이터 종류**
 자바스크립트의 데이터 종류는 숫자, 문자열, 객체 등 많은 데이터 유형을 보유 할  수 있다
 
+ex) var length = 16;  //  Number
+	  var lastName = "Johnson";  //  String
+	  var x = {firstName:"John", LastNa
 
 4. 
 
@@ -26,6 +29,6 @@ ex) var a, b, c;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMyMTkxOCwxODM4NDM0MDQ3LC0xNT
-kyNzkxNjY4LC0xNzc5OTcwODQ0LC05MTg5NjIwNTRdfQ==
+eyJoaXN0b3J5IjpbOTM0NjgzNywxODM4NDM0MDQ3LC0xNTkyNz
+kxNjY4LC0xNzc5OTcwODQ0LC05MTg5NjIwNTRdfQ==
 -->
