@@ -32,7 +32,9 @@
     	  이렇게 쓸 수 있다.
 
 **5. 조건문**
+자바스크립트의 조건문도 C언어와 유사하다.
 
+J ) if (condition
 
 **6. 함수**
 
@@ -44,7 +46,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODU5MjQyNiwxNzc0MDY3NjcyLDUyNj
-kyNjI5MCwxODM4NDM0MDQ3LC0xNTkyNzkxNjY4LC0xNzc5OTcw
-ODQ0LC05MTg5NjIwNTRdfQ==
+eyJoaXN0b3J5IjpbLTI1NDM2NDM1NSwxMDM4NTkyNDI2LDE3Nz
+QwNjc2NzIsNTI2OTI2MjkwLDE4Mzg0MzQwNDcsLTE1OTI3OTE2
+NjgsLTE3Nzk5NzA4NDQsLTkxODk2MjA1NF19
 -->
