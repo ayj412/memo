@@ -19,7 +19,9 @@
     	  var x = {firstName:"John", LastName:"Doe};  //  Object
 
 **4. 반복문**
+자바스크립트의 for문은 C언어와 유사하다.
 
+text +
 5. 
 
 **6. 함수**
@@ -32,7 +34,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTc2ODE3MSw1MjY5MjYyOTAsMTgzOD
+eyJoaXN0b3J5IjpbLTk5MDEzMDg4NCw1MjY5MjYyOTAsMTgzOD
 QzNDA0NywtMTU5Mjc5MTY2OCwtMTc3OTk3MDg0NCwtOTE4OTYy
 MDU0XX0=
 -->
