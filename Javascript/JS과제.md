@@ -23,7 +23,12 @@
 
 ex) text += cars[0] + "<br>";
 	  text += cars[1] + "<br>";
-	  text += cars[2] + "<br>"
+	  text += cars[2] + "<br>";
+	  이렇게 쓰는 대신에
+	  var i;
+	  for (i = 0; i < cars.length; i++){
+		  text += cars[i] + "<br>";
+	
 5. 
 
 **6. 함수**
@@ -36,7 +41,7 @@ ex) text += cars[0] + "<br>";
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDUyMzUwMjAsNTI2OTI2MjkwLDE4Mz
+eyJoaXN0b3J5IjpbLTE5NjI4MjMyNzYsNTI2OTI2MjkwLDE4Mz
 g0MzQwNDcsLTE1OTI3OTE2NjgsLTE3Nzk5NzA4NDQsLTkxODk2
 MjA1NF19
 -->
