@@ -15,12 +15,13 @@ ex) var a, b, c;
 
 **5. 함수**
 
-ex) function myFunction() {
-			document.getE
+    ex) function myFunction() {
+    		document.getElementById("demo1").innetHTML = "hello Dolly!";
+    		document.getElementById("demo2").innetHTML = "How are you?";
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTAxNTE3NywtMTU5Mjc5MTY2OCwtMT
+eyJoaXN0b3J5IjpbMTgzODQzNDA0NywtMTU5Mjc5MTY2OCwtMT
 c3OTk3MDg0NCwtOTE4OTYyMDU0XX0=
 -->
