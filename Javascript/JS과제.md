@@ -11,7 +11,11 @@ ex) var a, b, c;
 **2.  연산자**
 자바스크립트의 연산자는 + - * / % ++ -- 가 있다
 
-3. 
+**3.  데이터 종류**
+자바스크립트의 데이터 종류는 숫자, 문자열, 객체 등 많은 데이터 유형을 보유 할  수 있다
+
+
+4. 
 
 **5. 함수**
 
@@ -22,6 +26,6 @@ ex) var a, b, c;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODQzNDA0NywtMTU5Mjc5MTY2OCwtMT
-c3OTk3MDg0NCwtOTE4OTYyMDU0XX0=
+eyJoaXN0b3J5IjpbLTE4NTMyMTkxOCwxODM4NDM0MDQ3LC0xNT
+kyNzkxNjY4LC0xNzc5OTcwODQ0LC05MTg5NjIwNTRdfQ==
 -->
