@@ -34,7 +34,9 @@
 **5. 조건문**
 자바스크립트의 조건문도 C언어와 유사하다.
 
-J ) if (condition
+def ) if (condition) {
+			조건이 참일 경우 실행할 코드 블록 입력
+			}
 
 **6. 함수**
 
@@ -46,7 +48,7 @@ J ) if (condition
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDM2NDM1NSwxMDM4NTkyNDI2LDE3Nz
-QwNjc2NzIsNTI2OTI2MjkwLDE4Mzg0MzQwNDcsLTE1OTI3OTE2
-NjgsLTE3Nzk5NzA4NDQsLTkxODk2MjA1NF19
+eyJoaXN0b3J5IjpbLTE2NDgyNTI3OTgsMTAzODU5MjQyNiwxNz
+c0MDY3NjcyLDUyNjkyNjI5MCwxODM4NDM0MDQ3LC0xNTkyNzkx
+NjY4LC0xNzc5OTcwODQ0LC05MTg5NjIwNTRdfQ==
 -->
