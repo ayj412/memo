@@ -31,7 +31,8 @@
     	  }
     	  이렇게 쓸 수 있다.
 
-5. 
+**5. 조건문**
+
 
 **6. 함수**
 
@@ -43,7 +44,7 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDA2NzY3Miw1MjY5MjYyOTAsMTgzOD
-QzNDA0NywtMTU5Mjc5MTY2OCwtMTc3OTk3MDg0NCwtOTE4OTYy
-MDU0XX0=
+eyJoaXN0b3J5IjpbMTAzODU5MjQyNiwxNzc0MDY3NjcyLDUyNj
+kyNjI5MCwxODM4NDM0MDQ3LC0xNTkyNzkxNjY4LC0xNzc5OTcw
+ODQ0LC05MTg5NjIwNTRdfQ==
 -->
