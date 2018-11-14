@@ -7,6 +7,8 @@ ex) var a, b, c;
 	  a = 5;
 	  b = 6;
 	  c= a + b;
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNjgyMjMyLC05MTg5NjIwNTRdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzk5NzA4NDQsLTkxODk2MjA1NF19
 -->
