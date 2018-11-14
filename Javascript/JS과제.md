@@ -21,14 +21,16 @@
 **4. 반복문**
 자바스크립트의 for문은 C언어와 유사하다.
 
-ex) text += cars[0] + "<br>";
-	  text += cars[1] + "<br>";
-	  text += cars[2] + "<br>";
-	  이렇게 쓰는 대신에
-	  var i;
-	  for (i = 0; i < cars.length; i++){
-		  text += cars[i] + "<br>";
-	
+    ex) text += cars[0] + "<br>";
+    	  text += cars[1] + "<br>";
+    	  text += cars[2] + "<br>";
+    	  이렇게 쓰는 대신에
+    	  var i;
+    	  for (i = 0; i < 3; i++){
+    		  text += cars[i] + "<br>";
+    	  }
+    	  이렇게 쓸 수 있다.
+
 5. 
 
 **6. 함수**
@@ -41,7 +43,7 @@ ex) text += cars[0] + "<br>";
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjI4MjMyNzYsNTI2OTI2MjkwLDE4Mz
-g0MzQwNDcsLTE1OTI3OTE2NjgsLTE3Nzk5NzA4NDQsLTkxODk2
-MjA1NF19
+eyJoaXN0b3J5IjpbMTc3NDA2NzY3Miw1MjY5MjYyOTAsMTgzOD
+QzNDA0NywtMTU5Mjc5MTY2OCwtMTc3OTk3MDg0NCwtOTE4OTYy
+MDU0XX0=
 -->
