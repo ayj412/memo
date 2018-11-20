@@ -21,6 +21,13 @@ models.ForeignKey는 필드를 외래키로 만들고, 다른 테이블과 연�
 models.ForeignKey는 기본적으로 일 대 다 관계이며, 연결 대상이 되는 테이블을 인자로 받는다.
 settings.AUTH_USER_MODEL은 Django에 기본적으로 내장된 유저 모델이다.
 글이 작성자 테이블에 연결되도록 settings.AUTH_USER_MODEL을 외래키의 인자로 전달하였다.
+    title = models.CharField(max_length=100)
+models.CharField 글자 수가 제한된 필드
+
+    content = models.TextField(blank=True)
+ modles.TextField은 많은 문자열을 저장하는 필드
+ blank 옵션은 필드가 비어 있는 경우를 허용하는가에 대한 옵션
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA3NjAwMDRdfQ==
+eyJoaXN0b3J5IjpbMjkwMzgyMTA0XX0=
 -->
