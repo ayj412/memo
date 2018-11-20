@@ -15,8 +15,11 @@ from django.conf import settings
     content = models.TextField(blank=True)
     created_date = models.DateTimeField(auto_now_add=True)
     published_date = models.DateTimeField(blank=True, null=True)
-### Post 클래스에 정읟
+### Post 클래스에 정의된 필드들
+    author = models.ForeignKey(settings.AUTH_USER_MODEL)
+models.ForeignKey는 필드를 외래키로 만들고, 다른 테이블과 연결을 뜻한다
+models.ForeignKey는 기본적으로 일 대 다 관계이며, 연결 대상이 되는 테이블을 인자로 받는다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjUxMjI2NjRdfQ==
+eyJoaXN0b3J5IjpbNjE2OTg4NjE4XX0=
 -->
