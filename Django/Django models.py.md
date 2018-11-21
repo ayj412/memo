@@ -33,7 +33,7 @@ models.CharField 글자 수가 제한된 필드
     auto_now_add옵션은 객체가 처음 생성될 때 시간을 자동으로 저장하는 옵션 이것은 settings.py의 타임존의 시간을 따른다
     null은 비어있는 값을 데이터베이스에 NULL로 저장할지에 대한 옵션
 
-###데이터 베이스 스키마 확인하기
+### 데이터 베이스 스키마 확인하기
 python manage.py sqlmigrate 앱이름 migration 번호
 
     python manage.py sqlmigrate blog 0001
@@ -46,5 +46,5 @@ python manage.py sqlmigrate 앱이름 migration 번호
 우리가 만든 모델이 가지는 구조의 테이블을 데이터베이스에 기록하는 SQL명령어를 확인할 수 있다. 이렇게 데이터베이스의 자료 구조, 자료간 관계 등을 정의해놓은 것을 데이터베이스 스키마라고 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MDk1NDY2N119
+eyJoaXN0b3J5IjpbMzMxOTgwOTVdfQ==
 -->
