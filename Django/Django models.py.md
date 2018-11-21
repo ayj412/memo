@@ -31,7 +31,7 @@ models.CharField 글자 수가 제한된 필드
     published_date = models.DateTimeField(blank=True, null=True)
     models.DateTimeFiled는 날짜와 시간 필드를 뜻하고, python의 datatime.date의 인스턴스로 생성된다
     auto_now_add옵션은 객체가 처음 생성될 때 시간을 자동으로 저장하는 옵션 이것은 settings.py의 타임존의 시간을 따른다
-    null은 비어있는 값을 데이터베이스에 NU
+    null은 비어있는 값을 데이터베이스에 NULL로 저장할지에 대한 옵션
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDgzODM2MTldfQ==
+eyJoaXN0b3J5IjpbLTIxMzY4NDAwODddfQ==
 -->
