@@ -36,13 +36,13 @@ models.CharField 글자 수가 제한된 필드
 ###데이터 베이스 스키마 확인하기
 python manage.py sqlmigrate 앱이름 migration 번호
 
-**python manage.py sqlmigrate blog 0001
-BEGIN;
--- Create model Post
-CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "created_date" datetime NOT NULL, "published_date" datetime NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id"));
-CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
-COMMIT;**
+    python manage.py sqlmigrate blog 0001
+    BEGIN;
+    -- Create model Post
+    CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "created_date" datetime NOT NULL, "published_date" datetime NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id"));
+    CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+    COMMIT;*
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcxNDU1MzU0XX0=
+eyJoaXN0b3J5IjpbMjA4NjQ2NDEyXX0=
 -->
