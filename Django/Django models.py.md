@@ -32,6 +32,17 @@ models.CharField 글자 수가 제한된 필드
     models.DateTimeFiled는 날짜와 시간 필드를 뜻하고, python의 datatime.date의 인스턴스로 생성된다
     auto_now_add옵션은 객체가 처음 생성될 때 시간을 자동으로 저장하는 옵션 이것은 settings.py의 타임존의 시간을 따른다
     null은 비어있는 값을 데이터베이스에 NULL로 저장할지에 대한 옵션
+
+###데이터 베이스 스키마 확인하기
+python manage.py sqlmigrate 앱이름 migration 번호
+
+**python manage.py sqlmigrate blog 0001
+BEGIN;
+-- Create model Post
+CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "created_date" datetime NOT NULL, "published_date" datetime NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id"));
+CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
+COMMIT;**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY4NDAwODddfQ==
+eyJoaXN0b3J5IjpbMjcxNDU1MzU0XX0=
 -->
