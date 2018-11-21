@@ -41,8 +41,10 @@ python manage.py sqlmigrate 앱이름 migration 번호
     -- Create model Post
     CREATE TABLE "blog_post" ("id" integer NOT NULL PRIMARY KEY AUTOINCREMENT, "title" varchar(100) NOT NULL, "content" text NOT NULL, "created_date" datetime NOT NULL, "published_date" datetime NULL, "author_id" integer NOT NULL REFERENCES "auth_user" ("id"));
     CREATE INDEX "blog_post_author_id_dd7a8485" ON "blog_post" ("author_id");
-    COMMIT;*
+    COMMIT;
+
+우리가 만든 모델이 가지는 구조의 테이블을 데이터베이스에 기록하는 SQL명령어를 확인할 수 있다. 이렇게 데이터베이스의 자료 구조, 자료간 관계 등을 정의해놓은 것을 데이터베이스 스키마라고 한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NjQ2NDEyXX0=
+eyJoaXN0b3J5IjpbMTM2MDk1NDY2N119
 -->
