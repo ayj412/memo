@@ -11,6 +11,7 @@
 -   **DROP TABLE** - 테이블을 삭제합니다.
 -   **CREATE INDEX** - 색인 (검색 키)을 작성합니다.
 -   **DROP INDEX** - 색인을 삭제합니다.
+-   ** SQL명령**  - 대문자로 쓰는게 좋다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjcwNjEwMDFdfQ==
+eyJoaXN0b3J5IjpbLTgyMDIyMjgwNiwtMTYyNzA2MTAwMV19
 -->
