@@ -6,9 +6,8 @@ mkdir 프로젝트 이름 // 폴더 만들고
 . myvenv/bin/activate // 가상환경을 실행시켜준다.
 pip install django~=1.11.0 // 장고 설치
 django-admin startproject signup . // 현재위치에 프로젝트를 만든다.
-
-
+setting.py ㅇ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTI1MDQwNywtOTk4Mjk1MTU4LC00OD
-EzODI2ODNdfQ==
+eyJoaXN0b3J5IjpbMTc1MzI4MDU0MSwtMzkxMjUwNDA3LC05OT
+gyOTUxNTgsLTQ4MTM4MjY4M119
 -->
