@@ -7,11 +7,25 @@ mkdir 프로젝트 이름 // 폴더 만들고
 pip install django~=1.11.0 // 장고 설치
 django-admin startproject signup . // 현재위치에 프로젝트를 만든다.
 setting.py 에서 Allowed_host와 time_zone 수정
-마코 템플릿
+마코 템플릿도 적용시키자
+**마코 템플릿**
 
-    enter code here
+        {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'NAME': 'django',
+        'DIRS': [],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODQxMzI4NTgsMTY5NzA5MTk2OCwtMz
-kxMjUwNDA3LC05OTgyOTUxNTgsLTQ4MTM4MjY4M119
+eyJoaXN0b3J5IjpbLTI5Mjk3NzgwMCwxNjk3MDkxOTY4LC0zOT
+EyNTA0MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
 -->
