@@ -57,10 +57,24 @@ views.py 를 연다
 
     sudo apt-get install -y python3.6-dev libmysqlclient-dev build-essential uuid-dev libcap-dev libpcre3-dev libssl-dev
 
+설치 후에
+setting.py 에 database
+
+    DATABASES = {  
+      'default': {  
+      'ENGINE': 'django.db.backends.mysql',  
+      'NAME': 'signup',  
+      'HOST': '127.0.0.1',  
+      'PORT': '3306',  
+      'USER': 'admin',  
+      'PASSWORD': '0000'  
+      }  
+    }
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNjM5OTQwOSwxMTE5MjQ3NDU3LDEyND
-QzNTY1MTAsNDMyMDg0NjY3LDIxMDg4MDE4OTcsMTY5NzA5MTk2
-OCwtMzkxMjUwNDA3LC05OTgyOTUxNTgsLTQ4MTM4MjY4M119
+eyJoaXN0b3J5IjpbLTE0NTQ3MTkzMDksMTExOTI0NzQ1NywxMj
+Q0MzU2NTEwLDQzMjA4NDY2NywyMTA4ODAxODk3LDE2OTcwOTE5
+NjgsLTM5MTI1MDQwNywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ
+==
 -->
