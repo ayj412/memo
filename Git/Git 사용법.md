@@ -6,7 +6,8 @@ git config - -global user.name “Your name”
 git config - -global user.email “Your email address”
 
 git commit -m '커밋할 이름'
-git add . 
+git add . // 현재폴더 모두 저장
+git push origin master // git 푸쉬하기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjE3NTY2MF19
+eyJoaXN0b3J5IjpbLTkwMDYwMDc4OV19
 -->
