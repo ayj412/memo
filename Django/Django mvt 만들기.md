@@ -37,9 +37,13 @@ from . import views // 현재 어플리케이션의 views항목을 전부 불러
     urlpatterns = [
         url(r'^$', views.post_list, name='post_list'),
     ]
+^ == url 시작을 의미
+& == url 끝을 의미
+즉, r'^&'는 아무것도 안써있는url주소를 의미한다
 
+from. import views 에서 뷰를 불러오긴 했지만 설정을 해준것이 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NDM1NjUxMCw0MzIwODQ2NjcsMjEwOD
-gwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0MDcsLTk5ODI5NTE1
-OCwtNDgxMzgyNjgzXX0=
+eyJoaXN0b3J5IjpbLTEzNDkyMTk0NTQsMTI0NDM1NjUxMCw0Mz
+IwODQ2NjcsMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0
+MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
 -->
