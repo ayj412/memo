@@ -48,10 +48,9 @@ views.py 를 연다
     	return render(request, '템플릿 주소', 딕셔너리) 이렇게 만들어주면 된다
   마지막으로 데이터 베이스의 model부분은 ORM을 쓰는 것이 아니라 sql을 사용함 // 개발자들이 굳이 orm을 배우는 것보다 사용하던 sql을 사용하는 것이 시간적, 비용적으로 유리함
   
- 
-
+u
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMxNDE2MTk0LDEyNDQzNTY1MTAsNDMyMD
-g0NjY3LDIxMDg4MDE4OTcsMTY5NzA5MTk2OCwtMzkxMjUwNDA3
-LC05OTgyOTUxNTgsLTQ4MTM4MjY4M119
+eyJoaXN0b3J5IjpbLTIxMTI4Mjc2MTcsMTI0NDM1NjUxMCw0Mz
+IwODQ2NjcsMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0
+MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
 -->
