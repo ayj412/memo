@@ -8,6 +8,8 @@ git config - -global user.email “Your email address”
 git commit -m '커밋할 이름'
 git add . // 현재폴더 모두 저장
 git push origin master // git 푸쉬하기
+
+git remote add origin https://github.com/ayj412/django
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDYwMDc4OV19
+eyJoaXN0b3J5IjpbLTEyOTI5NzE2ODUsLTkwMDYwMDc4OV19
 -->
