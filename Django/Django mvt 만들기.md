@@ -1,4 +1,4 @@
-###디장고 MVT
+##  디장고 MVT
 
 sudo apt install python-virtualenv // virtualenv 설치
 virtualenv --python=python3.6 myvenv // 가상환경 만들기
@@ -48,9 +48,10 @@ views.py 를 연다
     	return render(request, '템플릿 주소', 딕셔너리) 이렇게 만들어주면 된다
   마지막으로 데이터 베이스의 model부분은 ORM을 쓰는 것이 아니라 sql을 사용함 // 개발자들이 굳이 orm을 배우는 것보다 사용하던 sql을 사용하는 것이 시간적, 비용적으로 유리함
   
-u
+## MYSQL 설치
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI4Mjc2MTcsMTI0NDM1NjUxMCw0Mz
-IwODQ2NjcsMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0
-MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
+eyJoaXN0b3J5IjpbMTkyMjkyMjQ1NSwxMjQ0MzU2NTEwLDQzMj
+A4NDY2NywyMTA4ODAxODk3LDE2OTcwOTE5NjgsLTM5MTI1MDQw
+NywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ==
 -->
