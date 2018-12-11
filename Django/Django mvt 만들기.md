@@ -58,8 +58,9 @@ views.py 를 연다
     sudo apt-get install -y python3.6-dev libmysqlclient-dev build-essential uuid-dev libcap-dev libpcre3-dev libssl-dev
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExOTI0NzQ1NywxMjQ0MzU2NTEwLDQzMj
-A4NDY2NywyMTA4ODAxODk3LDE2OTcwOTE5NjgsLTM5MTI1MDQw
-NywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ==
+eyJoaXN0b3J5IjpbLTQwNjM5OTQwOSwxMTE5MjQ3NDU3LDEyND
+QzNTY1MTAsNDMyMDg0NjY3LDIxMDg4MDE4OTcsMTY5NzA5MTk2
+OCwtMzkxMjUwNDA3LC05OTgyOTUxNTgsLTQ4MTM4MjY4M119
 -->
