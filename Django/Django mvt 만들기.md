@@ -41,9 +41,15 @@ from . import views // 현재 어플리케이션의 views항목을 전부 불러
 & == url 끝을 의미
 즉, r'^&'는 아무것도 안써있는url주소를 의미한다
 
-from. import views 에서 뷰를 불러오긴 했지만 설정을 해준것이 
+from. import views 에서 뷰를 불러오긴 했지만 설정을 해준것이 없기때문에 
+views.py 를 연다
+
+    def post_list(request)
+    	return render(request, '템플릿 주소', 딕셔너리) 이렇게 만들어주면 된다
+    
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDkyMTk0NTQsMTI0NDM1NjUxMCw0Mz
-IwODQ2NjcsMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0
-MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
+eyJoaXN0b3J5IjpbOTE1NTY1NTMwLDEyNDQzNTY1MTAsNDMyMD
+g0NjY3LDIxMDg4MDE4OTcsMTY5NzA5MTk2OCwtMzkxMjUwNDA3
+LC05OTgyOTUxNTgsLTQ4MTM4MjY4M119
 -->
