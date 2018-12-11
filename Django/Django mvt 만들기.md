@@ -31,9 +31,15 @@ python manage.py startapp backend // 어플리케이션 만들기
 
 메인 어플리케이션에 urls.py에 들어가서 include명령어로 어플리케이션과 urls연동을 시켜주고 메인어플리케이션이 아니면 urls.py가 없기때문에 복사해서 만들어준다.
 
+어플리케이션의 urls.py 에 
+from . import views // 현재 어플리케이션의 views항목을 전부 불러와주고
+
+    urlpatterns = [
+        url(r'^$', views.post_list, name='post_list'),
+    ]
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ2NTgxNzgzLDQzMjA4NDY2NywyMTA4OD
-AxODk3LDE2OTcwOTE5NjgsLTM5MTI1MDQwNywtOTk4Mjk1MTU4
-LC00ODEzODI2ODNdfQ==
+eyJoaXN0b3J5IjpbMTI0NDM1NjUxMCw0MzIwODQ2NjcsMjEwOD
+gwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0MDcsLTk5ODI5NTE1
+OCwtNDgxMzgyNjgzXX0=
 -->
