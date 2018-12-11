@@ -49,9 +49,17 @@ views.py 를 연다
   마지막으로 데이터 베이스의 model부분은 ORM을 쓰는 것이 아니라 sql을 사용함 // 개발자들이 굳이 orm을 배우는 것보다 사용하던 sql을 사용하는 것이 시간적, 비용적으로 유리함
   
 ## MYSQL 설치
+`sudo apt-get install mysql-server mysql-client` // sql 설치
+
+설치하면 루트 사용자의 비밀번호를 입력하라는 창이 뜬다.
+
+※ 혹시 설치가 안되는 경우
+
+    sudo apt-get install -y python3.6-dev libmysqlclient-dev build-essential uuid-dev libcap-dev libpcre3-dev libssl-dev
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMjkyMjQ1NSwxMjQ0MzU2NTEwLDQzMj
+eyJoaXN0b3J5IjpbMTExOTI0NzQ1NywxMjQ0MzU2NTEwLDQzMj
 A4NDY2NywyMTA4ODAxODk3LDE2OTcwOTE5NjgsLTM5MTI1MDQw
 NywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ==
 -->
