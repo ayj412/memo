@@ -29,9 +29,9 @@ python manage.py startapp backend // 어플리케이션 만들기
 
 어플리케이션을 생성한 후엔 setting.py에 설치했다고 명시를 해줘야한다.
 
-ㅇ
+메인 어플리케이션에 urls.py에 들어가서 include명령어로 어플리케이션과 urls연동을 시켜주고 메인어플리케이션이 아니면 urls.py가 없기때문에 복사해서 만들어준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzEyNjE5NjIsMjEwODgwMTg5NywxNj
-k3MDkxOTY4LC0zOTEyNTA0MDcsLTk5ODI5NTE1OCwtNDgxMzgy
-NjgzXX0=
+eyJoaXN0b3J5IjpbNDMyMDg0NjY3LDIxMDg4MDE4OTcsMTY5Nz
+A5MTk2OCwtMzkxMjUwNDA3LC05OTgyOTUxNTgsLTQ4MTM4MjY4
+M119
 -->
