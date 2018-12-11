@@ -24,12 +24,12 @@ setting.py 에서 Allowed_host와 time_zone 수정
             ],
         },
     },
-어플리케이션 만들기
-python manage.py startapp backend
+
+python manage.py startapp backend // 어플리케이션 만들기
 
 어플리케이션을 생성한 후엔 setting.py에 설치했다고 명시를 해줘야한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM3NzMxOTYxLDE2OTcwOTE5NjgsLTM5MT
-I1MDQwNywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ==
+eyJoaXN0b3J5IjpbMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOT
+EyNTA0MDcsLTk5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
 -->
