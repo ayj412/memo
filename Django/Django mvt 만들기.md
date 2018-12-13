@@ -14,6 +14,7 @@ django-admin startproject signup . // 현재위치에 프로젝트를 만든다.
 setting.py 에서 Allowed_host와 time_zone 수정
 
 마코 템플릿도 적용시키자
+
 **마코 템플릿**
 
         {
@@ -79,7 +80,7 @@ setting.py 에 database
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDM0OTU0NywtMTQ1NDcxOTMwOSwxMT
+eyJoaXN0b3J5IjpbMjEzNDEwMTExNywtMTQ1NDcxOTMwOSwxMT
 E5MjQ3NDU3LDEyNDQzNTY1MTAsNDMyMDg0NjY3LDIxMDg4MDE4
 OTcsMTY5NzA5MTk2OCwtMzkxMjUwNDA3LC05OTgyOTUxNTgsLT
 Q4MTM4MjY4M119
