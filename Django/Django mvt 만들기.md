@@ -17,37 +17,37 @@ setting.py 에서 Allowed_host와 time_zone 수정
 
 **마코 템플릿**
 
-    TEMPLATES = [  
-        {  
-            'BACKEND': 'djangomako.backends.MakoBackend',  
-      'NAME': 'mako',  
-      'DIRS': [  
-                BASE_DIR + '/backend/templates/',  
-      ],  
-      'APP_DIRS': True,  
-      'OPTIONS': {  
-                'context_processors': [  
-                    'django.template.context_processors.debug',  
-      'django.template.context_processors.request',  
-      'django.contrib.auth.context_processors.auth',  
-      'django.contrib.messages.context_processors.messages',  
-      ],  
-      },  
-      },  
-      {  
-            'BACKEND': 'django.template.backends.django.DjangoTemplates',  
-      'NAME': 'django',  
-      'DIRS': [],  
-      'APP_DIRS': True,  
-      'OPTIONS': {  
-                'context_processors': [  
-                    'django.template.context_processors.debug',  
-      'django.template.context_processors.request',  
-      'django.contrib.auth.context_processors.auth',  
-      'django.contrib.messages.context_processors.messages',  
-      ],  
-      },  
-      },  
+     TEMPLATES = [
+        {
+            'BACKEND': 'djangomako.backends.MakoBackend',
+            'NAME': 'mako',
+            'DIRS': [
+                BASE_DIR + '/backend/templates/',
+            ],
+            'APP_DIRS': True,
+            'OPTIONS': {
+                'context_processors': [
+                    'django.template.context_processors.debug',
+                    'django.template.context_processors.request',
+                    'django.contrib.auth.context_processors.auth',
+                    'django.contrib.messages.context_processors.messages',
+                ],
+            },
+        },
+        {
+            'BACKEND': 'django.template.backends.django.DjangoTemplates',
+            'NAME': 'django',
+            'DIRS': [],
+            'APP_DIRS': True,
+            'OPTIONS': {
+                'context_processors': [
+                    'django.template.context_processors.debug',
+                    'django.template.context_processors.request',
+                    'django.contrib.auth.context_processors.auth',
+                    'django.contrib.messages.context_processors.messages',
+                ],
+            },
+        },
     ]
 
 **python manage.py startapp backend // 어플리케이션 만들기**
@@ -97,9 +97,10 @@ setting.py 에 database
     }
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDEyNjYzMywyMTM0MTAxMTE3LC0xND
-U0NzE5MzA5LDExMTkyNDc0NTcsMTI0NDM1NjUxMCw0MzIwODQ2
-NjcsMjEwODgwMTg5NywxNjk3MDkxOTY4LC0zOTEyNTA0MDcsLT
-k5ODI5NTE1OCwtNDgxMzgyNjgzXX0=
+eyJoaXN0b3J5IjpbMTEwNDM0NzY1NSwtMTcwMTI2NjMzLDIxMz
+QxMDExMTcsLTE0NTQ3MTkzMDksMTExOTI0NzQ1NywxMjQ0MzU2
+NTEwLDQzMjA4NDY2NywyMTA4ODAxODk3LDE2OTcwOTE5NjgsLT
+M5MTI1MDQwNywtOTk4Mjk1MTU4LC00ODEzODI2ODNdfQ==
 -->
