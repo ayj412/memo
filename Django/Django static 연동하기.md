@@ -7,6 +7,8 @@ settings.py
         BASE_DIR + '/backend/static/'  
     ]
 
+어플의 view.py 에
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU4NDExNzJdfQ==
+eyJoaXN0b3J5IjpbODYxODI5OTkwLC0xNDA1ODQxMTcyXX0=
 -->
