@@ -20,6 +20,11 @@ sudo apt-get install -y python3.6-dev libmysqlclient-dev build-essential uuid-de
     }
 
 ```
+settings.py 세팅 후에
+
+    ./manage.py migrate  //명령어를 실행하면 된다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDQ0MzAxNiw4MzA3NDQ3NzldfQ==
+eyJoaXN0b3J5IjpbLTMwNTE0MTA5OCwtNjc0NDQzMDE2LDgzMD
+c0NDc3OV19
 -->
