@@ -1,7 +1,8 @@
 ## make 사용법
 
+
     #Makefile
-    *venv:
+    venv:
             virtualenv -p python3.6 venv
     req:
             pip install -r requirements.txt
@@ -16,5 +17,5 @@
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDkxMTU5Myw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbLTg5NTgxNjA5Nyw3MzA5OTgxMTZdfQ==
 -->
