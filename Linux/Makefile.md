@@ -1,6 +1,7 @@
 ## make 사용법
 
 
+
     #Makefile
     venv:
             virtualenv -p python3.6 venv
@@ -15,7 +16,8 @@
     server:
             python manage.py runserver 0.0.0.0:8000*
 
+Makefile 설정후 make ㅁㅁ
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTgxNjA5Nyw3MzA5OTgxMTZdfQ==
+eyJoaXN0b3J5IjpbMTYxMzg0MzI0OCw3MzA5OTgxMTZdfQ==
 -->
