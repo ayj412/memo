@@ -11,9 +11,9 @@
    - 서버 과부화에 노출 됨
     
     데이터베이스 유효성처리 안함
-    -개발자의 실수를 막아주지 못함
+    - 개발자의 실수를 막아주지 못함
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjQ4MjQ5MSw2NzUxNzM2NjIsMzE1Nz
-E2MDY2LDE2OTc2NDA2NDFdfQ==
+eyJoaXN0b3J5IjpbLTExMTk2NDA5MDMsNjc1MTczNjYyLDMxNT
+cxNjA2NiwxNjk3NjQwNjQxXX0=
 -->
