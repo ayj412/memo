@@ -24,7 +24,33 @@ settings.py 세팅 후에
 
     ./manage.py migrate  //명령어를 실행하면 된다.
 
+sudo apt-get install mysql-server
+
+mysql -u root -p
+
+sudo mysql
+
+ex)
+grant all privileges on *.* to 'id'@'%' identified by 'password' with grant option;
+
+grant all privileges on *.* to 'admin'@'%' identified by '0000' with grant option;
+flush privileges;
+
+show databases;
+
+install workbench
+
+cd /etc/mysql/
+
+sudo grep -r "bind" .
+
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+
+- change bind address
+
+sudo service mysql restart
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTE0MTA5OCwtNjc0NDQzMDE2LDgzMD
-c0NDc3OV19
+eyJoaXN0b3J5IjpbMjc4OTAyMjM1LC0zMDUxNDEwOTgsLTY3ND
+Q0MzAxNiw4MzA3NDQ3NzldfQ==
 -->
