@@ -48,9 +48,9 @@ sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
 
 - change bind address
 
-sudo service mysql restart
+sudo service mysql restartd
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc4OTAyMjM1LC0zMDUxNDEwOTgsLTY3ND
-Q0MzAxNiw4MzA3NDQ3NzldfQ==
+eyJoaXN0b3J5IjpbOTYzMzk4ODAxLDI3ODkwMjIzNSwtMzA1MT
+QxMDk4LC02NzQ0NDMwMTYsODMwNzQ0Nzc5XX0=
 -->
