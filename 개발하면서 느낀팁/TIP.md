@@ -12,8 +12,7 @@
     
     데이터베이스 유효성처리 안함
     - 개발자의 실수를 막아주지 못함
-dasdsad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjU5NTA4NSwtMTExOTY0MDkwMyw2Nz
+eyJoaXN0b3J5IjpbMTEyMjk3NDUzOSwtMTExOTY0MDkwMyw2Nz
 UxNzM2NjIsMzE1NzE2MDY2LDE2OTc2NDA2NDFdfQ==
 -->
